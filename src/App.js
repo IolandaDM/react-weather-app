@@ -1,19 +1,19 @@
-import React from 'react';
-import './App.css';
-import Weather from "./Weather"
-
-function App() {
+import React from "react";
+import ReactDOM from "react-dom";
+import Code from "./Code";
+import Search from "./Search";
+import Weather from "./Weather";
+import "./App.css";
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-
-        <p>
-          Hello
-        </p>
-        <Weather city="Paris" />
-      </header>
+    <div className="container">
+      <div className="border">
+        <div>
+          <Search />
+          <Weather />
+          <Code />
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
