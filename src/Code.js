@@ -5,7 +5,7 @@ export default function Code() {
         <div>
             <p className="github">
                 <a
-                    href="https://github.com/IolandaDM/plus-weather-project"
+                    href="https://github.com/IolandaDM/react-weather-app"
                     target="_blank"
                     className="github-link"
                     rel="noopener noreferrer"
