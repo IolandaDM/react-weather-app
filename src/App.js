@@ -1,5 +1,4 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import Code from "./Code";
 import Search from "./Search";
 import Weather from "./Weather";
